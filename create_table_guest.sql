@@ -1,0 +1,4 @@
+CREATE TABLE `guest`.`tbl_guest` ( `id` BIGINT NOT NULL AUTO_INCREMENT ,
+`name` VARCHAR(150) NOT NULL , `email` VARCHAR(150) NULL ,
+`notes` VARCHAR(1000) NULL ,
+PRIMARY KEY (`id`)) ENGINE = InnoDB;
